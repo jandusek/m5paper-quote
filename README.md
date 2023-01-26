@@ -2,7 +2,7 @@
 
 Displays random quotes on an [m5paper](https://shop.m5stack.com/products/m5paper-esp32-development-kit-v1-1-960x540-4-7-eink-display-235-ppi) eInk device.
 
-This assumes existence of a REST API that returns quotes in the following format:
+This assumes existence of a REST API (for example [this one](https://github.com/jandusek/quote-api)) that returns quotes in the following format:
 
 ```json
 {
