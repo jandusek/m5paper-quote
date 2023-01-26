@@ -6,9 +6,10 @@ This assumes existence of a REST API that returns quotes in the following format
 
 ```json
 {
-  "_id":"63d0bab591bcfcf03daea983",
-  "quote":"No man chooses evil because it is evil; he only mistakes it for happiness, the good he seeks.",
-  "author":"Mary Wollstonecraft"
+{
+  "_id":"63a3063b51d143b33e91af10",
+  "quote":"The fact that some geniuses were laughed at does not imply that all who are laughed at are geniuses. They laughed at Columbus, they laughed at Fulton, they laughed at the Wright brothers. But they also laughed at Bozo the Clown.",
+  "author":"Carl Sagan"}
 }
 ```
 
@@ -17,3 +18,7 @@ This assumes existence of a REST API that returns quotes in the following format
 1. `cp env.h.sample env.h`
 2. Edit variables in `env.h`
 3. Use Arduino IDE to compile and flash
+
+## Example
+
+![Example](example.jpeg)
